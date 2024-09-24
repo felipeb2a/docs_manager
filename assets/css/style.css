@@ -1,0 +1,205 @@
+/* imports */
+
+	/* icons */
+	@import url('../icons/bootstrap/font/bootstrap-icons.css');
+	@import url('../icons/simple_line_icons/fonts/simple-line-icons.min.css');
+
+	/* style */
+	@import url('../bootstrap/css/bootstrap.min.css');
+	@import url('https://fonts.googleapis.com/css?family=Montserrat:400,400i,700,700i,600,600i');
+	@import url('https://cdnjs.cloudflare.com/ajax/libs/baguettebox.js/1.10.0/baguetteBox.min.css');
+
+/*
+https://simplelineicons.github.io/
+
+@import url('style-folder.css');
+
+/* imports end */
+
+.degrade{
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background: linear-gradient(-45deg, #23A6D5, #23D5AB);
+	/*background: linear-gradient(-45deg, #EC6F66, #F3A183);
+	background: linear-gradient(-45deg, #6138DF, #060E23,);
+	background: linear-gradient(-45deg, #060E23, #6138DF, #060E23);*/
+	background-attachment: fixed;
+	overflow: hidden;
+	position: relative;
+	background-size: cover;
+	text-align: justify;
+	padding-top: 5rem;
+}
+
+.sem-degrade{
+	width: 100%;
+	overflow: hidden;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:  #2c3e50;
+	/*background: linear-gradient(-45deg, #bdc3c7, #2c3e50);*/
+	background-attachment: fixed;
+	overflow: hidden;
+	position: relative;
+	background-size: cover;
+	text-align: justify;
+	padding-top: 3rem;
+}
+
+#field {
+    margin-bottom:20px;
+    .border-radius(0) !important;
+}
+
+.sections {
+	/*margin-top: 50px;*/
+}
+
+.sections .container{
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+	width: 80%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	margin-top: 50px;
+	margin-bottom: 50px;
+	padding-bottom: 2rem;
+}
+
+.img{
+	border-radius: 10px;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+}
+
+.container2{
+	/*height: 500px;*/
+	width: 100%;
+	padding: 50px;
+	margin-top: 50px;
+}
+
+.container3{
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+	width: 70%;
+	height: 360px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+}
+
+.content2{
+	width: 80%;
+	height: 80%;
+}
+
+/*.sections .container h2{
+	position: absolute;
+	padding: 0.4rem;
+	margin-top: -0.4rem;
+	text-align: center!important;
+}*/
+
+.sections .card{
+	margin-top: 20px;
+}
+
+.sections .btn{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+a{
+	color: #808080 !important;
+}
+a:visited{
+	color: #808080 !important;
+}
+
+.menu-folder a{
+	color: #fff !important;
+}
+
+.menu-folder a:visited{
+	color: #fff !important;
+}
+
+.table-docs a{
+	color: #000 !important;
+}
+
+.table-docs a:visited{
+	color: #000 !important;
+}
+
+.legenda-home{
+	background: #fff;
+	text-align: center;
+	border-radius: 20px;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+	transform: scale(0.8);
+	padding-right: 10%;
+	width: 30%;
+	height: 30vh;
+}
+
+.selec_form{
+	background: #fff;
+	margin: 20px;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+	transition: 0.5s;
+	transform: scale(0.8);
+	width: 40%;
+	height: 40vh;
+}
+
+.selec_form{
+	background: #fff;
+	margin: 20px;
+	border-radius: 20px;
+	overflow: hidden;
+	box-shadow: 0 15px 25px rgba(0,0,0,0.2);
+	transition: 0.5s;
+	transform: scale(0.8);
+	width: 40%;
+	height: 40vh;
+}
+
+.selec_form:hover {
+	filter: blur(0px);
+	transform: scale(0.9);
+	opacity: 1;
+}
+
+
+@media (min-width:768px) {
+
+ 	.container2{
+		min-height: 100vh;
+	}
+}
+
+@media (min-width:1900px) {
+
+ 	.container2{
+		min-height: 100vh;
+	}
+}
+
+@media (max-width:767px) {
+
+   .container2{
+		min-height: 100vh;
+	}
+}
